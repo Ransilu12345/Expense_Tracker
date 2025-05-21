@@ -1,0 +1,46 @@
+﻿<Page x:Class="Expense_Tracker.Views.DashboardPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:oxy="clr-namespace:OxyPlot.Wpf;assembly=OxyPlot.Wpf"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d"
+      Title="Dashboard">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Dashboard" FontSize="28" FontWeight="Bold" Margin="0,0,0,20" />
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Summary Cards -->
+            <StackPanel Grid.Column="0" VerticalAlignment="Top" Margin="0,0,20,0" >
+                <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="8" Padding="10" Margin="0 0 0 10" Background="#F3F4F6">
+                    <TextBlock Text="Total Sales: Rs. 100,000" FontSize="16"/>
+                </Border>
+                <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="8" Padding="10" Margin="0 0 0 10" Background="#F3F4F6">
+                    <TextBlock Text="Total Expenses: Rs. 20,000" FontSize="16"/>
+                </Border>
+                <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="8" Padding="10" Margin="0 0 0 10" Background="#F3F4F6">
+                    <TextBlock Text="Inventory Items: 58" FontSize="16"/>
+                </Border>
+            </StackPanel>
+
+            <!-- OxyPlot Pie Chart -->
+            <oxy:PlotView Grid.Column="1"
+                          Height="300"
+                          Width="400"
+                          Model="{Binding PieChartModel}"
+                          VerticalAlignment="Top"
+                          Margin="10" />
+        </Grid>
+    </Grid>
+</Page>

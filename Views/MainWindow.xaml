@@ -1,0 +1,23 @@
+﻿<Window x:Class="Expense_Tracker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Expense Tracker" Height="500" Width="900">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Sidebar Menu -->
+        <StackPanel Background="#2D2D30" Grid.Column="0">
+            <Button Content="Home" Click="Home_Click" Margin="10" Foreground="White" Background="Transparent"/>
+            <Button Content="Dashboard" Click="Dashboard_Click" Margin="10" Foreground="White" Background="Transparent"/>
+            <Button Content="Sales" Click="Sales_Click" Margin="10" Foreground="White" Background="Transparent"/>
+            <Button Content="Inventory" Click="Inventory_Click" Margin="10" Foreground="White" Background="Transparent"/>
+            <Button Content="Reports" Click="Reports_Click" Margin="10" Foreground="White" Background="Transparent"/>
+        </StackPanel>
+
+        <!-- Page Frame -->
+        <Frame x:Name="MainFrame" Grid.Column="1" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>

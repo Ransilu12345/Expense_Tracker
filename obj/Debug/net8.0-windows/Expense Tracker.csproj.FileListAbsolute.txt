@@ -1,0 +1,132 @@
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\LatoFont\Lato-Black.ttf
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\LatoFont\Lato-BlackItalic.ttf
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\LatoFont\Lato-Bold.ttf
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\LatoFont\Lato-BoldItalic.ttf
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\LatoFont\Lato-ExtraBold.ttf
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\LatoFont\Lato-ExtraBoldItalic.ttf
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\LatoFont\Lato-ExtraLight.ttf
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\LatoFont\Lato-ExtraLightItalic.ttf
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\LatoFont\Lato-Italic.ttf
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\LatoFont\Lato-Light.ttf
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\LatoFont\Lato-LightItalic.ttf
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\LatoFont\Lato-Medium.ttf
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\LatoFont\Lato-MediumItalic.ttf
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\LatoFont\Lato-Regular.ttf
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\LatoFont\Lato-SemiBold.ttf
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\LatoFont\Lato-SemiBoldItalic.ttf
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\LatoFont\Lato-Thin.ttf
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\LatoFont\Lato-ThinItalic.ttf
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\LatoFont\OFL.txt
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\Expense Tracker.exe
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\Expense Tracker.deps.json
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\Expense Tracker.runtimeconfig.json
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\Expense Tracker.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\Expense Tracker.pdb
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\LiveCharts.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\Microsoft.Data.Sqlite.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\OxyPlot.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\OxyPlot.Wpf.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\OxyPlot.Wpf.Shared.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\PdfSharp.BarCodes.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\PdfSharp.Charting.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\PdfSharp.Cryptography.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\PdfSharp.Quality.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\PdfSharp.Shared.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\PdfSharp.Snippets.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\PdfSharp.System.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\PdfSharp.WPFonts.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\PdfSharp.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\QuestPDF.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\SQLitePCLRaw.batteries_v2.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\SQLitePCLRaw.core.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-arm64\native\libQuestPdfSkia.so
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-arm64\native\libcrypto.so
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-arm64\native\libjpeg.so.8
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-arm64\native\libqpdf.so
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-musl-x64\native\libQuestPdfSkia.so
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-musl-x64\native\libcrypto.so
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-musl-x64\native\libjpeg.so.8
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-musl-x64\native\libqpdf.so
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-x64\native\libQuestPdfSkia.so
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-x64\native\libcrypto.so
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-x64\native\libjpeg.so.8
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-x64\native\libqpdf.so
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\osx-arm64\native\libcrypto.dylib
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\osx-arm64\native\libjpeg.dylib
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\osx-arm64\native\libqpdf.dylib
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\osx-x64\native\libQuestPdfSkia.dylib
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\osx-x64\native\libcrypto.dylib
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\osx-x64\native\libjpeg.dylib
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\osx-x64\native\libqpdf.dylib
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\win-x64\native\QuestPdfSkia.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\win-x64\native\libgcc_s_seh-1.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\win-x64\native\libstdc++-6.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\win-x64\native\libwinpthread-1.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\win-x64\native\qpdf.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\win-x86\native\QuestPdfSkia.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\win-x86\native\libgcc_s_dw2-1.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\win-x86\native\libstdc++-6.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\win-x86\native\libwinpthread-1.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\win-x86\native\qpdf.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\dulne\Downloads\Expense Tracker\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Expense Tracker.csproj.AssemblyReference.cache
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Views\DashboardPage.baml
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Views\HomePage.baml
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Views\InventoryPage.baml
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Views\LoginWindow.baml
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Views\MainWindow.baml
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Views\ReportsPage.baml
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Views\SalesPage.baml
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Views\SignUpWindow.baml
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Views\DashboardPage.g.cs
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Views\HomePage.g.cs
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Views\InventoryPage.g.cs
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Views\LoginWindow.g.cs
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Views\ReportsPage.g.cs
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Views\SalesPage.g.cs
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Views\SignUpWindow.g.cs
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Expense Tracker_MarkupCompile.cache
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Expense Tracker.g.resources
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Expense Tracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Expense Tracker.AssemblyInfoInputs.cache
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Expense Tracker.AssemblyInfo.cs
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Expense Tracker.csproj.CoreCompileInputs.cache
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Expense .AD010034.Up2Date
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Expense Tracker.dll
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\refint\Expense Tracker.dll
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Expense Tracker.pdb
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\Expense Tracker.genruntimeconfig.cache
+C:\Users\dulne\Downloads\Expense Tracker\obj\Debug\net8.0-windows\ref\Expense Tracker.dll

@@ -1,0 +1,20 @@
+﻿Expense Tracker
+
+
+winexe
+C#
+.cs
+G:\Git\Expense_Tracker\obj\Release\net8.0-windows\
+Expense_Tracker
+none
+false
+TRACE;RELEASE;NET;NET8_0;NETCOREAPP
+G:\Git\Expense_Tracker\App.xaml
+81701909201
+
+15-1704528892
+2231605161217
+Views\DashboardPage.xaml;Views\HomePage.xaml;Views\InventoryPage.xaml;Views\LoginWindow.xaml;Views\MainWindow.xaml;Views\ReportsPage.xaml;Views\SalesPage.xaml;Views\SignUpWindow.xaml;
+
+False
+

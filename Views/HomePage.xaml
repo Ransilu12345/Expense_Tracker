@@ -1,0 +1,13 @@
+﻿<Page x:Class="Expense_Tracker.Views.HomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="HomePage">
+
+    <Grid Background="White">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Welcome Home!" FontSize="28" FontWeight="Bold" TextAlignment="Center" Margin="0 0 0 20"/>
+            <TextBlock Text="Manage Your Expenses easily and accuratley" 
+                       TextWrapping="Wrap" FontSize="16" TextAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Page>

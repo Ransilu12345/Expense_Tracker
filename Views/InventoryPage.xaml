@@ -1,0 +1,35 @@
+﻿<Page x:Class="Expense_Tracker.Views.InventoryPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="InventoryPage">
+
+    <Grid Background="White" Margin="20">
+        <StackPanel>
+            <TextBlock Text="Inventory Management" FontSize="24" FontWeight="Bold" Margin="0 0 0 20"/>
+
+            <!-- Input Fields -->
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+                <TextBox x:Name="ItemNameTextBox" Width="150" Margin="0 0 10 0" Text="Item Name"/>
+                <TextBox x:Name="QuantityTextBox" Width="100" Margin="0 0 10 0" Text="Quantity"/>
+                <TextBox x:Name="PriceTextBox" Width="100" Margin="0 0 10 0" Text="Price"/>
+                <Button Content="Add" Click="Add_Click" Width="75"/>
+            </StackPanel>
+
+            <!-- Data Grid -->
+            <DataGrid x:Name="InventoryGrid" AutoGenerateColumns="False" Height="300" Margin="0 0 0 10"
+                      SelectionMode="Single">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Item Name" Binding="{Binding ItemName}" Width="*"/>
+                    <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}" Width="100"/>
+                    <DataGridTextColumn Header="Price (Rs.)" Binding="{Binding Price}" Width="100"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <!-- Action Buttons -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <Button Content="Edit Selected" Click="Edit_Click" Width="100" Margin="0 0 10 0"/>
+                <Button Content="Delete Selected" Click="Delete_Click" Width="120"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
