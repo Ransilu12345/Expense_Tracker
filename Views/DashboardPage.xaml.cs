@@ -1,52 +1,54 @@
-﻿using System.Windows.Controls;
+﻿using System;
+using System.Windows;
+using System.Windows.Controls;
 using OxyPlot;
 using OxyPlot.Series;
+using Expense_Tracker.DataAccess;
 using Expense_Tracker.Models;
 
 namespace Expense_Tracker.Views
 {
     public partial class DashboardPage : Page
     {
-        public PlotModel PieChartModel { get; set; }
+        public PlotModel PieChartModel { get; private set; }
 
         private User _currentUser;
         private double _totalSales;
         private double _totalExpenses;
+        private double _netProfit;
 
         public DashboardPage(User currentUser)
         {
             InitializeComponent();
             _currentUser = currentUser;
 
-            // Default data
-            _totalSales = 100000;
-            _totalExpenses = 20000;
+            // Fetch data from database
+            _totalSales = DatabaseHelper.GetTotalSales();
+            _totalExpenses = DatabaseHelper.GetTotalExpenses();
+            _netProfit = _totalSales - _totalExpenses;
 
-            // Initialize pie chart
-            PieChartModel = CreatePieChart(_totalSales, _totalExpenses);
-
-            // Bind to UI
-            DataContext = this;
-        }
-
-        private PlotModel CreatePieChart(double sales, double expenses)
-        {
-            var model = new PlotModel { Title = "Expense Breakdown" };
-
+            // Create pie chart model
             var pieSeries = new PieSeries
             {
-                StrokeThickness = 1,
-                InsideLabelPosition = 0.8,
+                StrokeThickness = 0.25,
+                InsideLabelPosition = 0.5,
                 AngleSpan = 360,
                 StartAngle = 0
             };
 
-            pieSeries.Slices.Add(new PieSlice("Expenses", expenses) { Fill = OxyColors.Salmon });
-            pieSeries.Slices.Add(new PieSlice("Profit", sales - expenses) { Fill = OxyColors.LightGreen });
+            pieSeries.Slices.Add(new PieSlice("Expenses", _totalExpenses) { IsExploded = true, Fill = OxyColors.IndianRed });
+            pieSeries.Slices.Add(new PieSlice("Sales", _totalSales) { IsExploded = true, Fill = OxyColors.BlueViolet });
+            pieSeries.Slices.Add(new PieSlice("Profit", _netProfit) { IsExploded = true, Fill = OxyColors.GreenYellow });
 
-            model.Series.Add(pieSeries);
+            PieChartModel.Series.Add(pieSeries);
 
-            return model;
+            // Bind to DataContext for the XAML to see
+            DataContext = this;
+
+            // Update text fields
+            TotalSalesText.Text = $"Total Sales: Rs. {_totalSales:F2}";
+            TotalExpensesText.Text = $"Total Expenses: Rs. {_totalExpenses:F2}";
+            NetProfitText.Text = $"Net Profit: Rs. {_netProfit:F2}";
         }
     }
 }

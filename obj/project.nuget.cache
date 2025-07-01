@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "urM8QHqoRHQ=",
+  "dgSpecHash": "mhaDCxHyiI4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dulne\\Downloads\\Expense Tracker\\Expense Tracker.csproj",
+  "projectFilePath": "G:\\Git\\Expense_Tracker\\Expense Tracker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dulne\\.nuget\\packages\\livecharts.wpf.netcore3\\0.9.8\\livecharts.wpf.netcore3.0.9.8.nupkg.sha512",
     "C:\\Users\\dulne\\.nuget\\packages\\microsoft.data.sqlite\\9.0.4\\microsoft.data.sqlite.9.0.4.nupkg.sha512",

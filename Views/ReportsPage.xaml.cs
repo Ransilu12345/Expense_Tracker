@@ -1,11 +1,12 @@
-﻿using System.Windows;
-using System.Windows.Controls;
+﻿using System;
 using System.Diagnostics;
+using System.Windows;
+using System.Windows.Controls;
 using Expense_Tracker.Models;
 using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
-using System;
+using Expense_Tracker.DataAccess;
 
 namespace Expense_Tracker.Views
 {
@@ -21,15 +22,17 @@ namespace Expense_Tracker.Views
             InitializeComponent();
             _currentUser = user;
 
-            // Simulated data
-            _totalSales = 100000.00;
-            _totalExpenses = 20000.00;
+            // Fetch real data from the database
+            _totalSales = DatabaseHelper.GetTotalSales();
+            _totalExpenses = DatabaseHelper.GetTotalExpenses();
             _netProfit = _totalSales - _totalExpenses;
 
+            // Update UI
             TotalSalesText.Text = $"Rs. {_totalSales:F2}";
             TotalExpensesText.Text = $"Rs. {_totalExpenses:F2}";
             NetProfitText.Text = $"Rs. {_netProfit:F2}";
 
+            // Required for QuestPDF
             QuestPDF.Settings.License = LicenseType.Community;
         }
 
@@ -37,7 +40,7 @@ namespace Expense_Tracker.Views
         {
             try
             {
-                string fileName = "ExpenseReport.pdf";
+                string fileName = "Portfolio Report.pdf";
 
                 var document = Document.Create(container =>
                 {
@@ -69,10 +72,11 @@ namespace Expense_Tracker.Views
                                 text.Span($"{_totalExpenses:F2}").FontColor(Colors.Red.Medium);
                             });
 
-                            col.Item().Text($"Net Profit: Rs. {_netProfit:F2}")
-                                .FontSize(14)
-                                .Bold()
-                                .FontColor(Colors.Black);
+                            col.Item().Text(text =>
+                            {
+                                text.Span("Net Profit: Rs. ");
+                                text.Span($"{_netProfit:F2}").Bold();
+                            });
                         });
 
                         page.Footer().AlignCenter().Text(text =>
@@ -92,11 +96,6 @@ namespace Expense_Tracker.Views
             {
                 MessageBox.Show("Failed to export PDF: " + ex.Message);
             }
-        }
-
-        private void Button_IsMouseCapturedChanged(object sender, DependencyPropertyChangedEventArgs e)
-        {
-
         }
     }
 }

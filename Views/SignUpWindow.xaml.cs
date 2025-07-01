@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using System.Windows.Controls;
 using Expense_Tracker.DataAccess;
 using Expense_Tracker.Models;
 
@@ -51,5 +52,12 @@ namespace Expense_Tracker.Views
             loginWindow.Show();
             this.Close();
         }
+
+        private void FullNameTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+            ErrorText.Visibility = Visibility.Collapsed;
+        }
+
     }
 }

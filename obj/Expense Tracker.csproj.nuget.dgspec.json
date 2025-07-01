@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dulne\\Downloads\\Expense Tracker\\Expense Tracker.csproj": {}
+    "G:\\Git\\Expense_Tracker\\Expense Tracker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dulne\\Downloads\\Expense Tracker\\Expense Tracker.csproj": {
+    "G:\\Git\\Expense_Tracker\\Expense Tracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dulne\\Downloads\\Expense Tracker\\Expense Tracker.csproj",
+        "projectUniqueName": "G:\\Git\\Expense_Tracker\\Expense Tracker.csproj",
         "projectName": "Expense Tracker",
-        "projectPath": "C:\\Users\\dulne\\Downloads\\Expense Tracker\\Expense Tracker.csproj",
+        "projectPath": "G:\\Git\\Expense_Tracker\\Expense Tracker.csproj",
         "packagesPath": "C:\\Users\\dulne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dulne\\Downloads\\Expense Tracker\\obj\\",
+        "outputPath": "G:\\Git\\Expense_Tracker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
