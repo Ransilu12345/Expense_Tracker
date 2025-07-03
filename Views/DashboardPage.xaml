@@ -5,7 +5,9 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
       mc:Ignorable="d"
-      Title="Dashboard">
+      Title="Dashboard"
+      HorizontalAlignment="Stretch"
+      VerticalAlignment="Stretch">
 
 	<Grid Margin="20">
 		<Grid.RowDefinitions>
@@ -21,7 +23,7 @@
 				<ColumnDefinition Width="3*"/>
 			</Grid.ColumnDefinitions>
 
-			<!-- Summary Cards -->
+			
 			<StackPanel Grid.Column="0" VerticalAlignment="Top" Margin="0,0,20,0">
 				<Border BorderBrush="BlueViolet" BorderThickness="1" CornerRadius="8" Padding="10" Margin="0 0 0 10" Background="#F3F4F6">
 					<TextBlock x:Name="TotalSalesText" FontSize="16" />
@@ -34,7 +36,7 @@
 				</Border>
 			</StackPanel>
 
-			<!-- OxyPlot Pie Chart -->
+			
 			<oxy:PlotView Grid.Column="1"
                           Height="300"
                           Width="400"

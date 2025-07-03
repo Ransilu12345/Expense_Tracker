@@ -22,12 +22,16 @@ namespace Expense_Tracker.Views
             InitializeComponent();
             _currentUser = currentUser;
 
-            // Fetch data from database
+            
             _totalSales = DatabaseHelper.GetTotalSales();
             _totalExpenses = DatabaseHelper.GetTotalExpenses();
             _netProfit = _totalSales - _totalExpenses;
 
-            // Create pie chart model
+
+            PieChartModel = new PlotModel { Title = "" };
+
+
+            
             var pieSeries = new PieSeries
             {
                 StrokeThickness = 0.25,
@@ -42,10 +46,10 @@ namespace Expense_Tracker.Views
 
             PieChartModel.Series.Add(pieSeries);
 
-            // Bind to DataContext for the XAML to see
+            
             DataContext = this;
 
-            // Update text fields
+            
             TotalSalesText.Text = $"Total Sales: Rs. {_totalSales:F2}";
             TotalExpensesText.Text = $"Total Expenses: Rs. {_totalExpenses:F2}";
             NetProfitText.Text = $"Net Profit: Rs. {_netProfit:F2}";

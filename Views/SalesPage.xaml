@@ -7,7 +7,7 @@
         <StackPanel>
             <TextBlock Text="Sales Management" FontSize="24" FontWeight="Bold" Margin="0 0 0 20"/>
 
-            <!-- Input Fields -->
+            
             <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
                 <TextBox x:Name="ProductNameTextBox" Width="150" Margin="0 0 10 0" Text="Product Name"/>
                 <TextBox x:Name="QuantityTextBox" Width="100" Margin="0 0 10 0" Text="Quantity"/>
@@ -15,7 +15,7 @@
                 <Button Content="Add" Click="Add_Click" Width="75"/>
             </StackPanel>
 
-            <!-- Data Grid -->
+            
             <DataGrid x:Name="SalesGrid" AutoGenerateColumns="False" Height="300" Margin="0 0 0 10"
                       SelectionMode="Single">
                 <DataGrid.Columns>
@@ -26,7 +26,7 @@
                 </DataGrid.Columns>
             </DataGrid>
 
-            <!-- Action Buttons -->
+            
             <StackPanel Orientation="Horizontal">
                 <Button Content="Edit Selected" Click="Edit_Click" Width="100" Margin="0 0 10 0"/>
                 <Button Content="Delete Selected" Click="Delete_Click" Width="120"/>

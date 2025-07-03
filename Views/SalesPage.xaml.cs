@@ -44,7 +44,7 @@ namespace Expense_Tracker.Views
 
             if (_editingSaleItem != null)
             {
-                // Update existing
+                
                 _editingSaleItem.ProductName = name;
                 _editingSaleItem.Quantity = quantity;
                 _editingSaleItem.Price = price;
@@ -55,7 +55,7 @@ namespace Expense_Tracker.Views
             }
             else
             {
-                // Add new
+                
                 DatabaseHelper.AddSaleItem(name, quantity, price);
                 LoadSales();
             }

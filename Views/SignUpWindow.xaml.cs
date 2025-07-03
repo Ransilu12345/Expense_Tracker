@@ -20,20 +20,23 @@ namespace Expense_Tracker.Views
 
             if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password) || string.IsNullOrWhiteSpace(confirmPassword))
             {
-                MessageBox.Show("Please fill in all fields.");
+                ErrorText.Text = "Please fill in all fields.";
+                ErrorText.Visibility = Visibility.Visible;
                 return;
             }
 
             if (password != confirmPassword)
             {
-                MessageBox.Show("Passwords do not match. Please try again.");
+                ErrorText.Text = "Passwords do not match. Please try again.";
+                ErrorText.Visibility = Visibility.Visible;
                 return;
             }
 
             var success = DatabaseHelper.RegisterUser(username, password);
             if (success)
             {
-                MessageBox.Show("Registration successful! You can now log in.");
+                ErrorText.Text = "Registration successful! You can now log in.";
+                ErrorText.Visibility = Visibility.Visible;
 
                 var loginWindow = new LoginWindow();
                 loginWindow.Show();
@@ -41,7 +44,8 @@ namespace Expense_Tracker.Views
             }
             else
             {
-                MessageBox.Show("Username already exists. Please choose another.");
+                ErrorText.Text = "Username already exists. Please choose another.";
+                ErrorText.Visibility = Visibility.Visible;
             }
         }
 

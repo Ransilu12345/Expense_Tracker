@@ -22,17 +22,17 @@ namespace Expense_Tracker.Views
             InitializeComponent();
             _currentUser = user;
 
-            // Fetch real data from the database
+            
             _totalSales = DatabaseHelper.GetTotalSales();
             _totalExpenses = DatabaseHelper.GetTotalExpenses();
             _netProfit = _totalSales - _totalExpenses;
 
-            // Update UI
+            
             TotalSalesText.Text = $"Rs. {_totalSales:F2}";
             TotalExpensesText.Text = $"Rs. {_totalExpenses:F2}";
             NetProfitText.Text = $"Rs. {_netProfit:F2}";
 
-            // Required for QuestPDF
+            
             QuestPDF.Settings.License = LicenseType.Community;
         }
 
